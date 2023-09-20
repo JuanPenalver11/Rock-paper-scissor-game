@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, paper, scissors game</title>
+    <script src="https://kit.fontawesome.com/f7ae20891e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Title -->
+  
+        <div class="container m-5">
+            <div class="row">
+                <div class="icons col-12 text-center">
+                    <i class="fa-regular fa-hand-back-fist"> Rock, </i>
+                    <i class="fa-solid fa-toilet-paper"> Paper, </i>
+                    <i class="fa-regular fa-hand-scissors"> Scissors</i>
+                </div>
+            </div>
+        </div>
+  
+    <!-- Title -->
+    <!-- Visual Game -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="img-left col-lg-5 col-md-12 bg-primary" id="computer-choice">
+                <i class="fa-regular fa-hand-back-fist "></i>
+            </div>
+            <div class="result-title col-lg-2 col-md-12 bg-white ">
+                <h1>Result</h1>
+                <div class="result" id="result"></div>
+            </div>
+            <div class="img-right col-lg-5 col-md-12 bg-warning" id="user-choice">
+                <i class="fa-regular fa-hand-back-fist "></i>
+            </div>
+        </div>
+    </div>
+     <!-- Visual Game -->
+    <!-- Buttons -->
+
+    <div class="container d-flex justify-content-center m-5">
+        <div class="row">
+            <div class="rock-button col-md-4">
+                <button type="button" class="btn btn-light"><i class="fa-regular fa-hand-back-fist "></i></button>
+            </div>
+            <div class="paper-button col-md-4">
+                <button type="button" class="btn btn-light"><i class="fa-solid fa-toilet-paper"></i></button>
+
+            </div>
+            <div class="scissor-button col-md-4">
+                <button type="button" class="btn btn-light"><i class="fa-regular fa-hand-scissors"></i></button>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- buttons -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="app.js" charset="UTF-8"></script>
+</body>
+
+</html>

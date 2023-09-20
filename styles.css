@@ -1,0 +1,63 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Borel&family=Gloria+Hallelujah&family=Noto+Sans+Duployan:wght@700&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.icons{
+    font-size:40px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 30px;
+}
+
+#result{
+    height: 300px;
+    width:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 50px;
+}
+
+
+
+.img-left{
+    height: 450px;
+    width: auto;
+    border: solid black 5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300px;
+}
+
+.img-right{
+    height: 450px;
+    width: auto;
+    border: solid black 5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300px;
+}
+
+.btn i{
+    font-size: 50px;
+   
+}
+
+.btn{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
